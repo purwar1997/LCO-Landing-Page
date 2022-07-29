@@ -18,7 +18,7 @@ nav {
 
 nav .brand-image {
   flex: 1;
-  margin: auto;
+  margin: 15px auto;
 }
 
 nav .nav-items {
@@ -45,7 +45,7 @@ nav .nav-menu-icon {
 }
 
 .logo {
-  height: 100px;
+  height: 120px;
   margin-left: 40px;
 }
 
@@ -58,12 +58,10 @@ nav .nav-menu-icon {
   color: #ffffff;
   border-radius: 20px;
   cursor: pointer;
-  transition: color 350ms ease-in-out, font-weight 350ms ease-in-out,
-    box-shadow 350ms ease-in-out;
+  transition: font-weight 350ms ease-in-out, box-shadow 350ms ease-in-out;
 }
 
 .nav-btn:hover {
-  color: #ffffff;
   font-weight: 600;
   box-shadow: 0 0 30px 30px #3a3838 inset;
 }
@@ -140,7 +138,7 @@ nav .nav-menu-icon {
 
 @media screen and (max-width: 1200px) {
   .phone-image {
-    height: 60vh;
+    height: 65vh;
   }
 }
 
@@ -203,7 +201,7 @@ nav .nav-menu-icon {
   .col-left [logo] {
     display: block;
     margin-bottom: 30px;
-    height: 100px;
+    height: 120px;
   }
 
   .col-left [lco] {
