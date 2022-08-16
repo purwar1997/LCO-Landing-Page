@@ -3,6 +3,7 @@
 ![HTML](https://img.shields.io/badge/-HTML-red)
 ![CSS](https://img.shields.io/badge/-CSS-orange)
 ![Flexbox](https://img.shields.io/badge/-Flexbox-green)
+![Media Query](https://img.shields.io/badge/-Media%20Query-blue)
 ![LCO](https://img.shields.io/badge/-MediaQuery-blueviolet)
 ![Netlify](https://img.shields.io/badge/-Netlify-brightgreen)
 

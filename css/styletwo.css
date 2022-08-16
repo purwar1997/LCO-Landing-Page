@@ -1,0 +1,80 @@
+/* media queries for five different screen sizes */
+
+@media screen and (max-width: 1200px) {
+  .phone-image {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .col-right {
+    display: none;
+  }
+
+  nav .nav-items {
+    display: none;
+  }
+
+  nav .nav-menu-icon {
+    display: block;
+    margin: auto 20px;
+  }
+
+  nav .nav-menu-icon i {
+    color: #d8cccc;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .col-left p {
+    font-size: 25px;
+  }
+
+  .col-left h1 {
+    font-size: 35px;
+  }
+
+  .google-play-image {
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .col-left p {
+    font-size: 20px;
+  }
+
+  .col-left h1 {
+    font-size: 30px;
+  }
+
+  .google-play-image {
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .col-left p,
+  .col-left h1,
+  .nav-menu-icon i,
+  .logo {
+    display: none;
+  }
+
+  .col-left [logo] {
+    display: block;
+    margin-bottom: 30px;
+    height: 120px;
+  }
+
+  .col-left [lco] {
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .google-play-image {
+    margin-top: -15px;
+  }
+}
