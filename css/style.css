@@ -56,11 +56,11 @@ nav .nav-menu-icon {
   font-family: "Montserrat";
   color: #ffffff;
   border-radius: 20px;
-  cursor: pointer;
-  transition: font-weight 350ms ease-in-out, box-shadow 350ms ease-in-out;
+  transition: font-weight 200ms ease-in-out, box-shadow 200ms ease-in-out;
 }
 
 .nav-btn:hover {
+  cursor: pointer;
   font-weight: 600;
   box-shadow: 0 0 30px 30px #3a3838 inset;
 }
